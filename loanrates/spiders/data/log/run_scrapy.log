@@ -3847,3 +3847,15 @@
 2026-11-23 16:14:31,337 [INFO] :white_check_mark: Append complete.
 2026-11-23 16:14:31,337 [INFO] 
 
+2026-11-24 16:01:19,466 [INFO] :rocket: Running Scrapy spider...
+2026-11-24 16:01:21,929 [WARNING] :warning: Scrapy Errors/Warnings:
+2026-11-24 16:01:20 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/scrapy/extensions/feedexport.py:725: ScrapyDeprecationWarning: The overwrite feed option is deprecated, use the mode feed option instead: mode='overwrite' instead of overwrite=True, and mode='append' instead of overwrite=False.
+  self.feeds[uri] = feed_complete_default_values_from_settings(
+
+2026-11-24 16:01:21 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.13.18/x64/lib/python3.13/site-packages/scrapy/pipelines/__init__.py:66: ScrapyDeprecationWarning: LoanratesPipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(mw.process_item)
+2026-11-24 16:01:21,929 [INFO] :white_check_mark: Scraping complete.
+2026-11-24 16:01:21,929 [INFO] :inbox_tray: Appending JSON to CSV...
+2026-11-24 16:01:21,959 [INFO] :white_check_mark: Append complete.
+2026-11-24 16:01:21,959 [INFO] 
+
